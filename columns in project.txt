@@ -1,0 +1,31 @@
+DATABASE NAME: Restaurant
+TABLES: 
+	Table 1:items:
+		1:Item_Code(INT) (PK) (NN)
+		2:Item_Name(VARCHAR(100))
+		3:Price(INT)
+		4:No_of_Piece(INT)
+		5:Meal_Type(VARCHAR(100))
+	Table 2:orders:
+		1:Bill_No(INT) (PK) (NN)
+		2:Customer_Name(VARCHAR(100)) (NN)
+		3:Table_No(INT)
+		4:Date(DATE)
+		5:Chair_1(VARCHAR(100))
+		6: Quantity_1(INT)
+		7:Chair_2(VARCAHR(100))
+		8: Quantity_2(INT)
+		9:Chair_3(VARCHAR(100))
+		10:Quantity_3(INT)
+		11:Chair_4(VARCHAR(100))
+		12:Quantity_4(INT)
+		13:Chair_5(VARCHAR(100))
+		14:Quantity_5(INT)
+		15:Chair_6(VARCHAR(100))
+		16:Quantity_6(INT)
+		17: Total(INT)
+		18: Grand_Total(FLOAT)
+	Table 3: users:
+		1. Username(VARCHAR(100)) (PK)(NN)
+		2.Password(VARCHAR(100))
+		3.Account_Type(VARCHAR(100))
